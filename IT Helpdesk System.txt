@@ -1,0 +1,36 @@
+it-helpdesk-system/
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── forms.py
+│   ├── routes.py
+│   ├── utils.py
+│   ├── static/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   └── templates/
+│       ├── base.html
+│       ├── auth/
+│       │   ├── login.html
+│       │   └── register.html
+│       ├── manager/
+│       │   ├── dashboard.html
+│       │   ├── tickets.html
+│       │   ├── projects.html
+│       │   ├── engineers.html
+│       │   └── reports.html
+│       ├── coordinator/
+│       │   ├── dashboard.html
+│       │   ├── calls.html
+│       │   └── projects.html
+│       ├── engineer/
+│       │   ├── dashboard.html
+│       │   ├── tickets.html
+│       │   └── scr.html
+│       └── shared/
+│           ├── ticket_detail.html
+│           └── notification.html
+├── config.py
+├── requirements.txt
+└── run.py
